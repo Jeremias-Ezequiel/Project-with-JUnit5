@@ -1,8 +1,43 @@
-11:07:33.729 INFO  AUTOMATION - Before each: movieEraBetweenTest()
-11:07:33.760 INFO  AUTOMATION - Parent Setup
-11:07:34.058 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-11:07:34.230 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-11:07:34.935 DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
-11:07:34.966 INFO  AUTOMATION - Parent Tear Down
-11:07:34.966 INFO  AUTOMATION - After each: movieEraBetweenTest()
-11:07:34.981 INFO  AUTOMATION - Test Failed: movieEraBetweenTest()
+11:15:09.856 INFO  AUTOMATION - Before each: movieEraBetweenTest()
+11:15:09.883 INFO  AUTOMATION - Parent Setup
+11:15:10.423 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:15:10.675 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:15:11.532 DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
+11:15:11.548 INFO  AUTOMATION - Between years: 2001 - 2019
+11:15:11.563 INFO  AUTOMATION - Parent Tear Down
+11:15:11.563 INFO  AUTOMATION - After each: movieEraBetweenTest()
+11:15:11.579 INFO  AUTOMATION - Test Failed: movieEraBetweenTest()
+11:15:11.751 INFO  AUTOMATION - Before each: gamesCountByCompanyTest()
+11:15:11.751 INFO  AUTOMATION - Parent Setup
+11:15:11.766 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:15:11.782 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:15:11.845 DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
+11:15:11.845 INFO  AUTOMATION - The company is: XBOX
+11:15:11.845 INFO  AUTOMATION - Total of games: 7
+11:15:11.845 INFO  AUTOMATION - Test complete
+11:15:11.845 INFO  AUTOMATION - Parent Tear Down
+11:15:11.845 INFO  AUTOMATION - After each: gamesCountByCompanyTest()
+11:15:11.845 INFO  AUTOMATION - Test Successful: gamesCountByCompanyTest()
+11:15:11.860 INFO  AUTOMATION - Before each: sortGamesByGenreTest()
+11:15:11.860 INFO  AUTOMATION - Parent Setup
+11:15:11.892 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:15:11.892 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:15:11.954 DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
+11:15:11.954 INFO  AUTOMATION - The genre to filter is: horror
+11:15:11.954 INFO  AUTOMATION - Filtered list
+11:15:11.954 INFO  AUTOMATION - Sorted list
+11:15:11.954 INFO  AUTOMATION - The result is: true
+11:15:11.954 INFO  AUTOMATION - Parent Tear Down
+11:15:11.954 INFO  AUTOMATION - After each: sortGamesByGenreTest()
+11:15:11.954 INFO  AUTOMATION - Test Successful: sortGamesByGenreTest()
+11:15:11.970 INFO  AUTOMATION - Before each: sizeOfListFilteredByFirstLetter()
+11:15:11.970 INFO  AUTOMATION - Parent Setup
+11:15:11.986 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:15:12.001 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:15:12.064 DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
+11:15:12.064 INFO  AUTOMATION - The letter to filter is: t
+11:15:12.064 INFO  AUTOMATION - List filtered
+11:15:12.064 INFO  AUTOMATION - The size of the list is: 3
+11:15:12.064 INFO  AUTOMATION - Parent Tear Down
+11:15:12.064 INFO  AUTOMATION - After each: sizeOfListFilteredByFirstLetter()
+11:15:12.064 INFO  AUTOMATION - Test Successful: sizeOfListFilteredByFirstLetter()

@@ -3,6 +3,8 @@ package main;
 import annotations.Regression;
 import annotations.Smoke;
 import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import org.junit.jupiter.api.*;
 import reader.ExcelReader;
 import templates.Videogames;
@@ -26,6 +28,7 @@ public class ExcelVideogameTests extends BaseTests {
     @Regression
     @Smoke
     @Description("Verify that there are 6 Xbox games")
+    @Severity(SeverityLevel.NORMAL)
     void gamesCountByCompanyTest() {
         String company = "XBOX";
         Logs.info("The company is: %s",company);
@@ -42,6 +45,7 @@ public class ExcelVideogameTests extends BaseTests {
     @Regression
     @Smoke
     @Description("Filter the games by genre and sort them")
+    @Severity(SeverityLevel.NORMAL)
     void sortGamesByGenreTest() {
         String genre = "horror";
         Logs.info("The genre to filter is: " + genre);
@@ -62,6 +66,7 @@ public class ExcelVideogameTests extends BaseTests {
     @Regression
     @Smoke
     @Description("Verify the size of the list filtered by the first letter of a video game")
+    @Severity(SeverityLevel.BLOCKER)
     void sizeOfListFilteredByFirstLetter() {
 
         char firstLetter = 't';
@@ -80,6 +85,7 @@ public class ExcelVideogameTests extends BaseTests {
     @Regression
     @Smoke
     @Description("This test checks that the all movie's era is between two different years")
+    @Severity(SeverityLevel.CRITICAL)
     void movieEraBetweenTest() {
         int age1 = 2001;
         int age2 = 2019;
