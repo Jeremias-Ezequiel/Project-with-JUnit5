@@ -1,7 +1,9 @@
+.mvn/
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
@@ -11,6 +13,15 @@ target/
 *.iws
 *.iml
 *.ipr
+
+### Ignorar configuraciones de IDE ###
+.idea/
+
+# Ignorar archivos de Maven Wrapper
+.mvn/
+
+# Ignorar reportes generados por Allure
+.allure/
 
 ### Eclipse ###
 .apt_generated
