@@ -44,4 +44,19 @@ public class Filters {
         return true;
     }
 
+    public static List<Videogames> filterGamesByFirstLetter(List<Videogames> completeList, char firstLetter){
+        List<Videogames> filterList = new ArrayList<>();
+
+        for(Videogames game : completeList){
+            if(Character.toUpperCase(game.getName().charAt(0)) == Character.toUpperCase(firstLetter)){
+                filterList.add(game);
+            }
+        }
+
+        return filterList;
+    }
+
+
+
+
 }
