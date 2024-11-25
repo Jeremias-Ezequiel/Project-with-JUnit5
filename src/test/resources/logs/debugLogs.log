@@ -1,0 +1,19 @@
+01:01:09.798 INFO  AUTOMATION - Before each: gamesCountByCompanyTest()
+01:01:09.824 INFO  AUTOMATION - Parent Setup
+01:01:10.267 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+01:01:10.459 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+01:01:11.323 DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
+01:01:11.331 INFO  AUTOMATION - The company is: XBOX
+01:01:11.338 INFO  AUTOMATION - Total of games: 7
+01:01:11.346 INFO  AUTOMATION - Test complete
+01:01:11.353 INFO  AUTOMATION - Parent Tear Down
+01:01:11.354 INFO  AUTOMATION - After each: gamesCountByCompanyTest()
+01:01:11.374 INFO  AUTOMATION - Test Successful: gamesCountByCompanyTest()
+01:01:11.575 INFO  AUTOMATION - Before each: sortGamesByGenreTest()
+01:01:11.576 INFO  AUTOMATION - Parent Setup
+01:01:11.605 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+01:01:11.612 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+01:01:11.741 DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
+01:01:11.746 INFO  AUTOMATION - Parent Tear Down
+01:01:11.747 INFO  AUTOMATION - After each: sortGamesByGenreTest()
+01:01:11.749 INFO  AUTOMATION - Test Successful: sortGamesByGenreTest()
